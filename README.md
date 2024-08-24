@@ -41,6 +41,6 @@ The `Portfolio` class contains a list of `Stock` objects and a method `profit` t
 
 For the annualized profit, I used the following formula:
 
-![Alt text](image-1.png)
+![Alt text](image.png)
 
 If it were up to me, I would have put this logic in a separate method. However, given the way the challenge was described, I assumed you wanted this logic integrated into the same method. This is because I'm not a fan of optional arguments that require totally different steps to get to the output.
