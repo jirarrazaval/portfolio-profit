@@ -44,3 +44,16 @@ For the annualized profit, I used the following formula:
 ![Alt text](image.png)
 
 If it were up to me, I would have put this logic in a separate method. However, given the way the challenge was described, I assumed you wanted this logic integrated into the same method. This is because I'm not a fan of optional arguments that require totally different steps to get to the output.
+
+
+### Try yourself
+
+To test the functionality of the classes, follow these steps:
+
+1. Clone this repository
+
+2. Run the example script with python or python3:
+
+   ```bash
+   python main.py
+   ```
