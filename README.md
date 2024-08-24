@@ -3,7 +3,7 @@
 Construct a simple Portfolio class that has a collection of Stocks and a "Profit" method that receives 2 dates and returns the profit of the Portfolio between those dates. Assume each Stock has a "Price" method that receives a date and returns its price.  
 **Bonus Track:** Make the Profit method return the "annualized return" of the portfolio between the given dates.
 
-# My Proposal
+# My Proposal :rocket:
 
 ## Assumptions
 
@@ -13,7 +13,7 @@ Construct a simple Portfolio class that has a collection of Stocks and a "Profit
 
 There are two classes: `Portfolio` and `Stock`, each in its own file. Yes, it’s a really small amount of code, and I don't care. I prefer to maintain clear separation of concerns, so I will never put two classes together in the same file, no matter how small they are. This approach might seem overkill in such a small project, but it's a good habit to develop for larger projects where keeping classes in their own files helps maintain organization and readability.
 
-### `Stock` Class
+### Stock Class :moneybag:
 
 The `Stock` class is straightforward: it has a name and a dictionary where the keys are dates (as strings) and the values are prices. This allows easy access to the price of the stock on any given date.
 
@@ -24,7 +24,7 @@ The `Stock` class is straightforward: it has a name and a dictionary where the k
 - **Methods**:
   - `price(date)`: Given a date, this method returns the price of the stock on that date. I assume that every date passed to this method will exist in the dictionary, simplifying the implementation.
 
-### `Portfolio` Class
+### Portfolio Class :chart_with_upwards_trend:
 
 The `Portfolio` class contains a list of `Stock` objects and a method `profit` that, given two dates, will return the simple sum of the differences in prices for each stock between those two dates.
 
@@ -37,7 +37,7 @@ The `Portfolio` class contains a list of `Stock` objects and a method `profit` t
   - `remove(stocks)`: Removes a list of stocks from the portfolio.
   - `profit(start_date, end_date, annualized=False)`: This method is where the core functionality lies. It calculates the profit (or optionally, the annualized return) of the portfolio between the two given dates.
 
-### Bonus
+### Bonus :sparkles:
 
 For the annualized profit, I used the following formula:
 
